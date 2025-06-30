@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+
+@theme{
+  --color-primary:#e83667;
+  --color-primaryDark:#bb2c51;
+  --color-secondary:#21d4b9;
+  --color-dark:#303030;
+}
+
+
+@utility container{
+  padding:20px;
+  margin-inline:auto;
+}
+
+/* @utility container {
+  padding: 20px;
+  margin-inline: auto;
+  
+  @variant sm {
+    padding: 20px;
+  }
+
+  @variant md{
+    padding:20px;
+  }
+  
+  @variant lg {
+    padding:20px;
+  }
+  
+  @variant xl {
+    padding: 20px;
+  }
+} */
+
+
+
